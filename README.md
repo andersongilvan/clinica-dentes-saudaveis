@@ -1,6 +1,10 @@
 
 # Clínica Odontológica Dentes Saudáveis  
 
+`Link de acesso`
+https://clinica-dentes-saudaveis.vercel.app/
+
+
 Bem-vindo ao repositório do projeto de site para uma clínica odontológica desenvolvido como parte do curso "Carreira Front-End" da DevMedia. Este projeto utiliza React, HTML, CSS, responsividade e a biblioteca Scroll Reveal para criar uma experiência moderna e atraente para os usuários.
 
 ## Tecnologias Utilizadas
@@ -17,7 +21,7 @@ Certifique-se de ter o Node.js instalado em seu sistema. Caso não tenha, você 
 Clone este repositório:
 bash
 Copy code
-git clone https://github.com/seu-usuario/nome-do-repositorio.git
+git clone https://github.com//andersongilvan/clinica-dentes-saudaveis
 Navegue até o diretório do projeto:
 bash
 Copy code

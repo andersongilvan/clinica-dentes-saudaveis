@@ -1,0 +1,13 @@
+footer {
+    width: 100%;
+    background-color: #1B3675;
+    
+}
+footer
+.limitar-secao-footer {
+    max-width: 1024px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    color: aliceblue;
+}

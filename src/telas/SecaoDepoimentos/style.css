@@ -1,0 +1,15 @@
+.secao-depoimentos {
+    width: 100%;
+    margin: 40px 0 40px 0;
+
+}
+.secao-depoimentos
+.container {
+    max-width: 1024px;
+    margin: 0 auto;
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}

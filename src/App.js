@@ -1,25 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Topo from "./componentes/Topo";
+import Home from "./telas/Home";
+import Rodape from "./componentes/Rodape";
 
-function App() {
+import React, { useEffect } from 'react';
+import ScrollReveal from 'scrollreveal';
+
+
+const App = () => {
+
+
+  useEffect(() => {
+    
+    ScrollReveal().reveal('div', {
+      delay: 400,
+      distance: '50px',
+      origin: 'bottom',
+      opacity: 0,
+      easing: 'linear',
+    });
+  }, []);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Topo />
+
+      <Home />
+
+      <Rodape />
     </div>
   );
-}
-
+};
 export default App;

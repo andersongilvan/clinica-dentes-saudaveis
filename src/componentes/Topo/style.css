@@ -1,0 +1,31 @@
+header
+{
+    width: 100%;
+    margin-bottom: 1px;
+    background-color: #1B3675;
+   
+}
+.limitar-secao-topo
+{
+    max-width: 1024px;
+    margin: 0 auto;
+    
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+.limitar-secao-topo
+.img-logo
+{
+    width: 100px;
+    padding: 20px 0;
+}
+.limitar-secao-topo
+.titulo-topo
+{
+    font-size: 2.5em;
+    font-family: 'Satisfy', cursive;
+    color: aliceblue;
+}

@@ -1,0 +1,38 @@
+.secao-beneficios{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+}
+.secao-beneficios
+.titulo-beneficios {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 40px 0 40px;
+}
+.titulo-beneficios h2 {
+    font-weight: 600;
+}
+.titulo-beneficios span {
+    font-family: 'Pacifico', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Russo One', sans-serif;
+    font-size: 1.5em;
+    
+    font-style: italic;  
+}
+.secao-beneficios img {
+    width: 50vw;
+    border-radius: 6px;
+    margin-bottom: 40px;   
+}
+.secao-beneficios
+.container-beneficios {
+    max-width: 1024px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+}

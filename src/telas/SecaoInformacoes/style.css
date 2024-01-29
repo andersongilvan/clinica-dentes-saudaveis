@@ -1,0 +1,16 @@
+.secao-informacoes {
+    width: 100%;
+    margin-bottom: 80px;
+    
+}
+.secao-informacoes
+.limitar-secao-informacoes {
+    max-width: 1024px; 
+    margin: 0 auto;
+    
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+    
+}
